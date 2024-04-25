@@ -134,6 +134,32 @@ export const store = [
                     {id: v1(), groupElements: 0, name: "BearBlack", file: "poligonBearBlack", check: false},
                 ]
             },
+            {
+                id: v1(),
+                check: false,
+                nameProject: "poligonHorse",
+                def: [
+                    {file: "poligonRhinoDefoult"},
+                ],
+                components: [
+                    {id: v1(), groupElements: 0, name: "HorseChrome", file: "poligonHorseChrome", check: true},
+                    {id: v1(), groupElements: 0, name: "HorseGold", file: "poligonHorseGold", check: false},
+                    {id: v1(), groupElements: 0, name: "HorseBlack", file: "poligonHorseBlack", check: false},
+                ]
+            },
+            {
+                id: v1(),
+                check: false,
+                nameProject: "poligonBull",
+                def: [
+                    {file: "poligonRhinoDefoult"},
+                ],
+                components: [
+                    {id: v1(), groupElements: 0, name: "BullChrome", file: "poligonBullChrome", check: true},
+                    {id: v1(), groupElements: 0, name: "BullGold", file: "poligonBullGold", check: false},
+                    {id: v1(), groupElements: 0, name: "BullBlack", file: "poligonBullBlack", check: false},
+                ]
+            },
         ]
     }
 ]
