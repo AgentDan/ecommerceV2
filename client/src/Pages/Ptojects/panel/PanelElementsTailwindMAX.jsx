@@ -5,7 +5,6 @@ import {AuthContext} from "../../../context/AuthContext";
 const PanelElementsTailwindMax = () => {
     const {allProjects, allElem, setAllElem, idProject} = useContext(AuthContext)
 
-    console.log("AllProjects: ", allProjects)
     let allElements
     for (let i = 0; i < allProjects.length; i++) {
         if (allProjects[i].id === idProject) {

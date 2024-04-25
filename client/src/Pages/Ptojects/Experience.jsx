@@ -8,12 +8,12 @@ export const Experience = () => {
                 intensity={0.2}
                 environment="city"
                 shadows={{
-                    type: "accumulative",
+                    // type: "accumulative",
                     color: "#d9afd9",
-                    colorBlend: 2,
-                    opacity: 2,
+                    colorBlend: 1,
+                    opacity: 1,
                 }}
-                // adjustCamera={3}
+                adjustCamera={1.5}
             >
                 <Render/>
             </Stage>

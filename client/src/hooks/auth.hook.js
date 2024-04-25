@@ -35,7 +35,14 @@ export const useAuth = () => {
             login(data.token, data.userId, data.logoName)
         }
         setIsReady(true)
+        if (b[0]) {
+            bb = b[0].projects
+            setAllProjects(bb)
+            setArrNew(b[0])
+        }
+
     }, [login])
+
 
     const b = store.filter((t) => (t.name === logoName))
     let bb
@@ -46,6 +53,10 @@ export const useAuth = () => {
             setArrNew(b[0])
         }
     }, [logoName]);
+
+    const refresh = () => {
+
+    }
 
     return {login, logout, token, userId, isReady, logoName, arrNew, setArrNew, allProjects, setAllProjects, allElem, setAllElem, idProject, setIdProject}
 }

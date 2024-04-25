@@ -3,14 +3,10 @@ import {useNavigate} from "react-router-dom"
 import PanelElementsTailwindMax from "./PanelElementsTailwindMAX.jsx"
 import {useContext, useState} from "react";
 import {AuthContext} from "../../../context/AuthContext"
-import {store} from "../../../state/state"
 
 const PanelProjectsTailwind = () => {
     const {userId, logoName, allProjects, setAllProjects, idProject, setIdProject, arrNew, setArrNew} = useContext(AuthContext)
     const Navigator = useNavigate()
-    // setAllProjects(b[0].projects)
-    // console.log("arrNew: ", arrNew)
-    // console.log("allProjects: ", allProjects)
     const onChangeHandle = (idCurrentProject) => {
         setIdProject(idCurrentProject)
         setAllProjects(allProjects.map(t => t.id === idCurrentProject ? {...t, check: true} : {...t, check: false}))
