@@ -161,5 +161,41 @@ export const store = [
                 ]
             },
         ]
+    },
+    {
+        id: v1(),
+        name: "kinki",
+        projects: [
+            {
+                id: v1(),
+                check: false,
+                nameProject: "kinkiBed",
+                def: [
+                    {file: "kinkiBedDefoult"},
+                    {file: "kinkiMetallDefoult"},
+                    {file: "kinkiOsnovaDefoult"},
+                ],
+                components: [
+                    // {id: v1(), groupElements: 0, name: "RhinoChrome", file: "kinkiBedDefoult", check: true},
+                    // {id: v1(), groupElements: 0, name: "RhinoGold", file: "poligonRhinoGold", check: false},
+                    // {id: v1(), groupElements: 0, name: "RhinoBlack", file: "poligonRhinoBlack", check: false},
+                ]
+            },
+            {
+                id: v1(),
+                check: false,
+                nameProject: "kinkiCeiling",
+                def: [
+                    {file: "kinkiCeilingMDF"},
+                    {file: "kinkiCeilingRama"},
+                    {file: "kinkiCeilingRoup"},
+                ],
+                components: [
+                    // {id: v1(), groupElements: 0, name: "RhinoChrome", file: "kinkiBedDefoult", check: true},
+                    // {id: v1(), groupElements: 0, name: "RhinoGold", file: "poligonRhinoGold", check: false},
+                    // {id: v1(), groupElements: 0, name: "RhinoBlack", file: "poligonRhinoBlack", check: false},
+                ]
+            }
+        ]
     }
 ]

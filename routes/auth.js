@@ -8,7 +8,7 @@ const jwt = require("jsonwebtoken")
 router.post('/registration',
     [
         // check('login', 'Некорректный login').isEmail(),
-        check('password', 'Некорректный пароль').isLength({min: 6})
+        check('password', 'Некорректный пароль').isLength({min: 4})
     ],
     async (req, res) => {
 
