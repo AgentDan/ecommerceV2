@@ -195,6 +195,18 @@ export const store = [
                     // {id: v1(), groupElements: 0, name: "RhinoGold", file: "poligonRhinoGold", check: false},
                     // {id: v1(), groupElements: 0, name: "RhinoBlack", file: "poligonRhinoBlack", check: false},
                 ]
+            },
+            {
+                id: v1(),
+                check: false,
+                nameProject: "kinkiCouch",
+                def: [
+                    {file: "kinkiCouchDefoult"},
+                ],
+                components: [
+                    {id: v1(), groupElements: 0, name: "CouchClosed", file: "kinkiCouchClosed", check: true},
+                    {id: v1(), groupElements: 0, name: "CouchOpen", file: "kinkiCouchOpen", check: false},
+                ]
             }
         ]
     }
