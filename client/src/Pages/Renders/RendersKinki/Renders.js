@@ -1,4 +1,5 @@
-import photo0 from './0.jpg'
+import photo00 from './00.jpg'
+import photo01 from './01.jpg'
 import photo1 from './1.jpg'
 import photo2 from './2.jpg'
 import photo3 from './3.jpg'
@@ -13,8 +14,8 @@ const Renders = () => {
                     PROJECTS
                 </div>
             </Link>
-            <img src={photo0} alt="ppp"/>
-            <img src={photo1} alt="ppp"/>
+            <img src={photo00} alt="ppp"/>
+            <img src={photo01} alt="ppp"/>
             <img src={photo2} alt="ppp"/>
             <img src={photo3} alt="ppp"/>
             <img src={photo4} alt="ppp"/>
