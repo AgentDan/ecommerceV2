@@ -63,5 +63,5 @@ export const Menu = (props) => {
                 </div>
             </div>
         </>
-    );
-};
+    )
+}

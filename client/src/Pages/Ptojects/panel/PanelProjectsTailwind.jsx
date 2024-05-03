@@ -1,11 +1,20 @@
 import {v1} from 'uuid'
-import {useNavigate} from "react-router-dom"
+import {Link, useNavigate} from "react-router-dom"
 import PanelElementsTailwindMax from "./PanelElementsTailwindMAX.jsx"
 import {useContext, useState} from "react";
 import {AuthContext} from "../../../context/AuthContext"
 
 const PanelProjectsTailwind = () => {
-    const {userId, logoName, allProjects, setAllProjects, idProject, setIdProject, arrNew, setArrNew} = useContext(AuthContext)
+    const {
+        userId,
+        logoName,
+        allProjects,
+        setAllProjects,
+        idProject,
+        setIdProject,
+        arrNew,
+        setArrNew
+    } = useContext(AuthContext)
     const Navigator = useNavigate()
     const onChangeHandle = (idCurrentProject) => {
         setIdProject(idCurrentProject)
@@ -37,6 +46,7 @@ const PanelProjectsTailwind = () => {
                 })
             }
         </div>
+    console.log(logoName)
 
     return (
         <>
@@ -47,8 +57,22 @@ const PanelProjectsTailwind = () => {
                 >
                     HOME
                 </div>
+
+                {logoName==="kinki" &&
+                    (
+                        <div
+                            className='cursor-pointer top-1 right-1 flex flex-col items-start backdrop-blur-sm bg-white/30 w-44 h-10 rounded-3xl pl-3 pt-2 mt-1'
+                        >
+                            <Link to={"/renders"}>
+                                plan renders
+                            </Link>
+                        </div>
+                    )
+                }
+
                 {radioProjects}
                 {idProject && <PanelElementsTailwindMax/>}
+
             </div>
         </>
     )

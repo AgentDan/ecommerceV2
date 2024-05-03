@@ -8,7 +8,7 @@ import SignIn from "./Pages/SignIn/SignIn"
 import SignUp from "./Pages/SignUp/SignUp"
 import Projects from "./Pages/Ptojects/Projects"
 import Layout from "./Pages/Layout/Layout"
-import Renders from "./Pages/Renders/Renders"
+import Renders from "./Pages/Renders/RendersKinki/Renders"
 
 function App() {
     const {login, logout, token, userId, isReady, logoName, arrNew, setArrNew, allProjects, setAllProjects, allElem, setAllElem, idProject, setIdProject} = useAuth()

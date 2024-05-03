@@ -8,9 +8,9 @@ import {Link} from "react-router-dom";
 const Renders = () => {
     return (
         <>
-            <Link to={'/'}>
-                <div className="right-1 fixed flex backdrop-blur-sm bg-white/30 w-44 h-12 rounded-3xl p-3 mt-1">
-                    HOME
+            <Link to={'/projects'}>
+                <div className=" font-bold right-1 fixed flex backdrop-blur-sm bg-white/30 w-44 h-10 rounded-3xl pl-3 pt-2 mt-1">
+                    PROJECTS
                 </div>
             </Link>
             <img src={photo0} alt="ppp"/>
