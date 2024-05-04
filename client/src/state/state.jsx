@@ -169,11 +169,41 @@ export const store = [
             {
                 id: v1(),
                 check: false,
-                nameProject: "kinkiBed",
+                nameProject: "kinkiBedVar1",
                 def: [
-                    {file: "kinkiBedDefoult"},
-                    {file: "kinkiMetallDefoult"},
-                    {file: "kinkiOsnovaDefoult"},
+                    {file: "kinkiBadVar1Defoult1"},
+                    {file: "kinkiBadVar1Defoult2"},
+                    {file: "kinkiBadVar1Defoult3"},
+                ],
+                components: [
+                    // {id: v1(), groupElements: 0, name: "RhinoChrome", file: "kinkiBedDefoult", check: true},
+                    // {id: v1(), groupElements: 0, name: "RhinoGold", file: "poligonRhinoGold", check: false},
+                    // {id: v1(), groupElements: 0, name: "RhinoBlack", file: "poligonRhinoBlack", check: false},
+                ]
+            },
+            {
+                id: v1(),
+                check: false,
+                nameProject: "kinkiBedVar2",
+                def: [
+                    {file: "kinkiBadVar2Defoult1"},
+                    {file: "kinkiBadVar2Defoult2"},
+                    {file: "kinkiBadVar2Defoult3"},
+                ],
+                components: [
+                    // {id: v1(), groupElements: 0, name: "RhinoChrome", file: "kinkiBedDefoult", check: true},
+                    // {id: v1(), groupElements: 0, name: "RhinoGold", file: "poligonRhinoGold", check: false},
+                    // {id: v1(), groupElements: 0, name: "RhinoBlack", file: "poligonRhinoBlack", check: false},
+                ]
+            },
+            {
+                id: v1(),
+                check: false,
+                nameProject: "kinkiBedVar3",
+                def: [
+                    {file: "kinkiBadVar3Defoult1"},
+                    {file: "kinkiBadVar3Defoult2"},
+                    {file: "kinkiBadVar3Defoult3"},
                 ],
                 components: [
                     // {id: v1(), groupElements: 0, name: "RhinoChrome", file: "kinkiBedDefoult", check: true},
