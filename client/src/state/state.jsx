@@ -164,80 +164,70 @@ export const store = [
     },
     {
         id: v1(),
+        name: "gochi",
+        projects: [
+            {
+                id: v1(),
+                check: false,
+                nameProject: "gochiWell",
+                def: [
+                    {file: "gochiWell"},
+                ],
+                components: [
+                ]
+            },
+            {
+                id: v1(),
+                check: false,
+                nameProject: "gochiVodka",
+                def: [
+                    {file: "gochiVodka"},
+                ],
+                components: [
+                ]
+            }
+        ]
+    },
+    {
+        id: v1(),
         name: "kinki",
         projects: [
             {
                 id: v1(),
                 check: false,
-                nameProject: "kinkiBedVar1",
+                nameProject: "kinkiBed",
                 def: [
-                    {file: "kinkiBadVar1Defoult1"},
-                    {file: "kinkiBadVar1Defoult2"},
-                    {file: "kinkiBadVar1Defoult3"},
+                    {file: "kinkiBadVar4Defoult1"},
+                    {file: "kinkiBadVar4Defoult2"},
+                    {file: "kinkiBadVar4Defoult3"},
                 ],
                 components: [
-                    // {id: v1(), groupElements: 0, name: "RhinoChrome", file: "kinkiBedDefoult", check: true},
-                    // {id: v1(), groupElements: 0, name: "RhinoGold", file: "poligonRhinoGold", check: false},
-                    // {id: v1(), groupElements: 0, name: "RhinoBlack", file: "poligonRhinoBlack", check: false},
                 ]
             },
-            {
-                id: v1(),
-                check: false,
-                nameProject: "kinkiBedVar2",
-                def: [
-                    {file: "kinkiBadVar2Defoult1"},
-                    {file: "kinkiBadVar2Defoult2"},
-                    {file: "kinkiBadVar2Defoult3"},
-                ],
-                components: [
-                    // {id: v1(), groupElements: 0, name: "RhinoChrome", file: "kinkiBedDefoult", check: true},
-                    // {id: v1(), groupElements: 0, name: "RhinoGold", file: "poligonRhinoGold", check: false},
-                    // {id: v1(), groupElements: 0, name: "RhinoBlack", file: "poligonRhinoBlack", check: false},
-                ]
-            },
-            {
-                id: v1(),
-                check: false,
-                nameProject: "kinkiBedVar3",
-                def: [
-                    {file: "kinkiBadVar3Defoult1"},
-                    {file: "kinkiBadVar3Defoult2"},
-                    {file: "kinkiBadVar3Defoult3"},
-                ],
-                components: [
-                    // {id: v1(), groupElements: 0, name: "RhinoChrome", file: "kinkiBedDefoult", check: true},
-                    // {id: v1(), groupElements: 0, name: "RhinoGold", file: "poligonRhinoGold", check: false},
-                    // {id: v1(), groupElements: 0, name: "RhinoBlack", file: "poligonRhinoBlack", check: false},
-                ]
-            },
-            {
-                id: v1(),
-                check: false,
-                nameProject: "kinkiCeiling",
-                def: [
-                    {file: "kinkiCeilingMDF"},
-                    {file: "kinkiCeilingRama"},
-                    {file: "kinkiCeilingRoup"},
-                ],
-                components: [
-                    // {id: v1(), groupElements: 0, name: "RhinoChrome", file: "kinkiBedDefoult", check: true},
-                    // {id: v1(), groupElements: 0, name: "RhinoGold", file: "poligonRhinoGold", check: false},
-                    // {id: v1(), groupElements: 0, name: "RhinoBlack", file: "poligonRhinoBlack", check: false},
-                ]
-            },
-            {
-                id: v1(),
-                check: false,
-                nameProject: "kinkiCouch",
-                def: [
-                    {file: "kinkiCouchDefoult"},
-                ],
-                components: [
-                    {id: v1(), groupElements: 0, name: "CouchClosed", file: "kinkiCouchClosed", check: true},
-                    {id: v1(), groupElements: 0, name: "CouchOpen", file: "kinkiCouchOpen", check: false},
-                ]
-            }
+            // {
+            //     id: v1(),
+            //     check: false,
+            //     nameProject: "kinkiCeiling",
+            //     def: [
+            //         {file: "kinkiCeilingMDF"},
+            //         {file: "kinkiCeilingRama"},
+            //         {file: "kinkiCeilingRoup"},
+            //     ],
+            //     components: [
+            //     ]
+            // },
+            // {
+            //     id: v1(),
+            //     check: false,
+            //     nameProject: "kinkiCouch",
+            //     def: [
+            //         {file: "kinkiCouchDefoult"},
+            //     ],
+            //     components: [
+            //         {id: v1(), groupElements: 0, name: "CouchClosed", file: "kinkiCouchClosed", check: true},
+            //         {id: v1(), groupElements: 0, name: "CouchOpen", file: "kinkiCouchOpen", check: false},
+            //     ]
+            // }
         ]
     }
 ]

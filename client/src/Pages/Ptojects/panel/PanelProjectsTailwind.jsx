@@ -46,7 +46,6 @@ const PanelProjectsTailwind = () => {
                 })
             }
         </div>
-    console.log(logoName)
 
     return (
         <>
@@ -63,7 +62,19 @@ const PanelProjectsTailwind = () => {
                         <div
                             className='cursor-pointer top-1 right-1 flex flex-col items-start backdrop-blur-sm bg-white/30 w-44 h-10 rounded-3xl pl-3 pt-2 mt-1'
                         >
-                            <Link to={"/renders"}>
+                            <Link to={"/renderskinki"}>
+                                plan renders
+                            </Link>
+                        </div>
+                    )
+                }
+
+                {logoName==="gochi" &&
+                    (
+                        <div
+                            className='cursor-pointer top-1 right-1 flex flex-col items-start backdrop-blur-sm bg-white/30 w-44 h-10 rounded-3xl pl-3 pt-2 mt-1'
+                        >
+                            <Link to={"/rendersgochi"}>
                                 plan renders
                             </Link>
                         </div>

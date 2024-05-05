@@ -8,7 +8,8 @@ import SignIn from "./Pages/SignIn/SignIn"
 import SignUp from "./Pages/SignUp/SignUp"
 import Projects from "./Pages/Ptojects/Projects"
 import Layout from "./Pages/Layout/Layout"
-import Renders from "./Pages/Renders/RendersKinki/Renders"
+import RendersKinki from "./Pages/Renders/RendersKinki/Renders"
+import RendersGochi from "./Pages/Renders/RendersGochi/RendersGochi";
 
 function App() {
     const {login, logout, token, userId, isReady, logoName, arrNew, setArrNew, allProjects, setAllProjects, allElem, setAllElem, idProject, setIdProject} = useAuth()
@@ -22,7 +23,8 @@ function App() {
                         <Route path="/" element={<Layout isLogin={isLogin}/>}>
                             <Route element={<PrivatRouter/>}>
                                 <Route path="/projects" element={<Projects/>}/>
-                                <Route path="/renders" element={<Renders/>}/>
+                                <Route path="/renderskinki" element={<RendersKinki/>}/>
+                                <Route path="/rendersgochi" element={<RendersGochi/>}/>
                             </Route>
                             <Route path="/" element={<MainPage isLogin={isLogin} logoName={logoName}/>}/>
                             <Route path="/login" element={<SignIn/>}/>
