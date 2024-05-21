@@ -206,6 +206,22 @@ export const store = [
     },
     {
         id: v1(),
+        name: "konst",
+        projects: [
+            {
+                id: v1(),
+                check: false,
+                nameProject: "box",
+                def: [
+                    {file: "polkaDefoult"},
+                ],
+                components: [
+                ]
+            }
+        ]
+    },
+    {
+        id: v1(),
         name: "kinki",
         projects: [
             {

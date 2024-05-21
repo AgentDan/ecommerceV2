@@ -1,6 +1,6 @@
 import React, {Suspense, useContext} from 'react'
 import {RenderElements} from "./RenderElements.jsx"
-import Box from "./Box.jsx"
+import Box from "./Box"
 import {AuthContext} from "../../../context/AuthContext"
 
 const RenderBlockNew = () => {

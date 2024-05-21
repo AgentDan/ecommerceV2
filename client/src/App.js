@@ -10,6 +10,7 @@ import Projects from "./Pages/Ptojects/Projects"
 import Layout from "./Pages/Layout/Layout"
 import RendersKinki from "./Pages/Renders/RendersKinki/Renders"
 import RendersGochi from "./Pages/Renders/RendersGochi/RendersGochi";
+import RendersKonst from "./Pages/Renders/RendersKonst/RendersKonst";
 
 function App() {
     const {login, logout, token, userId, isReady, logoName, arrNew, setArrNew, allProjects, setAllProjects, allElem, setAllElem, idProject, setIdProject} = useAuth()
@@ -25,6 +26,7 @@ function App() {
                                 <Route path="/projects" element={<Projects/>}/>
                                 <Route path="/renderskinki" element={<RendersKinki/>}/>
                                 <Route path="/rendersgochi" element={<RendersGochi/>}/>
+                                <Route path="/renderskonst" element={<RendersKonst/>}/>
                             </Route>
                             <Route path="/" element={<MainPage isLogin={isLogin} logoName={logoName}/>}/>
                             <Route path="/login" element={<SignIn/>}/>
