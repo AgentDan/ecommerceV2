@@ -36,7 +36,7 @@ const SignIn = () => {
     }
 
     if (redirect) {
-        return <Navigate to={'/'}/>
+        return <Navigate to={'/projects'}/>
     }
     return (
         <div className="absolute bg-gradient-to-r from-gray-100 to-gray-400 h-screen">
