@@ -1,5 +1,6 @@
 import photo1 from './polka1.png'
 import photo2 from './polka2.png'
+import photo3 from './polka3.png'
 import {Link} from "react-router-dom";
 
 const RendersKonst = () => {
@@ -12,7 +13,7 @@ const RendersKonst = () => {
             </Link>
             <img src={photo1} alt="ppp"/>
             <img src={photo2} alt="ppp"/>
-
+            <img src={photo3} alt="ppp"/>
         </>
     );
 };

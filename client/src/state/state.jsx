@@ -211,7 +211,7 @@ export const store = [
             {
                 id: v1(),
                 check: false,
-                nameProject: "box",
+                nameProject: "1000x150x95 RAL9005",
                 def: [
                     {file: "polkaDefoult"},
                 ],
