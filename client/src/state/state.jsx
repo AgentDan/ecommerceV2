@@ -211,9 +211,19 @@ export const store = [
             {
                 id: v1(),
                 check: false,
-                nameProject: "1000x150x95 RAL9005",
+                nameProject: "1000x150x95 RAL9011",
                 def: [
                     {file: "polkaDefoult"},
+                ],
+                components: [
+                ]
+            },
+            {
+                id: v1(),
+                check: false,
+                nameProject: "1800x1600x300 RAL9004",
+                def: [
+                    {file: "polkaDefoult2"},
                 ],
                 components: [
                 ]
