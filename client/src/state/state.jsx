@@ -245,5 +245,22 @@ export const store = [
                 ]
             }
         ]
+    },
+    {
+        id: v1(),
+        name: "stepan",
+        projects: [
+            {
+                id: v1(),
+                check: false,
+                nameProject: "hammock",
+                def: [
+                    {file: "hammockDefoult1"},
+                    {file: "hammockDefoult2"},
+                ],
+                components: [
+                ]
+            }
+        ]
     }
 ]
