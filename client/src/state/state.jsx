@@ -232,33 +232,14 @@ export const store = [
     },
     {
         id: v1(),
-        name: "kinki",
+        name: "lab",
         projects: [
             {
                 id: v1(),
                 check: false,
-                nameProject: "kinkiCouch",
+                nameProject: "logo",
                 def: [
-                    {file: "kinkiCouchDefoult"},
-                ],
-                components: [
-                    {id: v1(), groupElements: 0, name: "CouchClosed", file: "kinkiCouchClosed", check: true},
-                    {id: v1(), groupElements: 0, name: "CouchOpen", file: "kinkiCouchOpen", check: false},
-                ]
-            }
-        ]
-    },
-    {
-        id: v1(),
-        name: "stepan",
-        projects: [
-            {
-                id: v1(),
-                check: false,
-                nameProject: "hammock",
-                def: [
-                    {file: "hammockDefoult1"},
-                    {file: "hammockDefoult2"},
+                    {file: "labDefoult"},
                 ],
                 components: [
                 ]
