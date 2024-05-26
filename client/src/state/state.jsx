@@ -234,30 +234,6 @@ export const store = [
         id: v1(),
         name: "kinki",
         projects: [
-            // {
-            //     id: v1(),
-            //     check: false,
-            //     nameProject: "kinkiBed",
-            //     def: [
-            //         {file: "kinkiBadVar4Defoult1"},
-            //         {file: "kinkiBadVar4Defoult2"},
-            //         {file: "kinkiBadVar4Defoult3"},
-            //     ],
-            //     components: [
-            //     ]
-            // },
-            // {
-            //     id: v1(),
-            //     check: false,
-            //     nameProject: "kinkiCeiling",
-            //     def: [
-            //         {file: "kinkiCeilingMDF"},
-            //         {file: "kinkiCeilingRama"},
-            //         {file: "kinkiCeilingRoup"},
-            //     ],
-            //     components: [
-            //     ]
-            // },
             {
                 id: v1(),
                 check: false,
@@ -268,6 +244,23 @@ export const store = [
                 components: [
                     {id: v1(), groupElements: 0, name: "CouchClosed", file: "kinkiCouchClosed", check: true},
                     {id: v1(), groupElements: 0, name: "CouchOpen", file: "kinkiCouchOpen", check: false},
+                ]
+            }
+        ]
+    },
+    {
+        id: v1(),
+        name: "stepan",
+        projects: [
+            {
+                id: v1(),
+                check: false,
+                nameProject: "hammock",
+                def: [
+                    {file: "hammockDefoult1"},
+                    {file: "hammockDefoult2"},
+                ],
+                components: [
                 ]
             }
         ]
