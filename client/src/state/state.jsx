@@ -260,6 +260,18 @@ export const store = [
                 ],
                 components: [
                 ]
+            },
+            {
+                id: v1(),
+                check: false,
+                nameProject: "hammockK",
+                def: [
+                    {file: "hammockKDefoult1"},
+                    {file: "hammockKDefoult2"},
+                    {file: "hammockKDefoult3"},
+                ],
+                components: [
+                ]
             }
         ]
     }
