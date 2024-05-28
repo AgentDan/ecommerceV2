@@ -138,15 +138,16 @@
     ],
     "meshes" : [
         {
-            "name" : "Cube.002",
+            "name" : "Cube.003",
             "primitives" : [
                 {
                     "attributes" : {
                         "POSITION" : 0,
                         "NORMAL" : 1,
-                        "TEXCOORD_0" : 2
+                        "TEXCOORD_0" : 2,
+                        "TEXCOORD_1" : 3
                     },
-                    "indices" : 3,
+                    "indices" : 4,
                     "material" : 0
                 }
             ]
@@ -158,14 +159,14 @@
             "componentType" : 5126,
             "count" : 16,
             "max" : [
-                0.0800001323223114,
-                1.5800001621246338,
-                1.580000638961792
+                0.7924579381942749,
+                1.7700001001358032,
+                2.3700006008148193
             ],
             "min" : [
-                0.03999987244606018,
-                -1.5800001621246338,
-                -1.5199999809265137
+                0.732455849647522,
+                -2.3700003623962402,
+                -2.2800002098083496
             ],
             "type" : "VEC3"
         },
@@ -183,6 +184,12 @@
         },
         {
             "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 16,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 4,
             "componentType" : 5123,
             "count" : 24,
             "type" : "SCALAR"
@@ -206,14 +213,19 @@
         },
         {
             "buffer" : 0,
-            "byteLength" : 48,
+            "byteLength" : 128,
             "byteOffset" : 512
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 48,
+            "byteOffset" : 640
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 560,
-            "uri" : "data:application/octet-stream;base64,/NajPXI9yj9cj8K/6NYjPXI9yj9cj8K/+NajPXI9yj/gUbi96NYjPXI9yj/gUbi9HNejPXA9yr9bj8K/MNcjPXA9yr9bj8K/HNejPXI9yr/gUbi9MNcjPXI9yr/gUbi9/NajPXI9yj92Pco/6NYjPXI9yj92Pco/+NajPXI9yj/AmRk+6NYjPXI9yj/AmRk+HNejPXA9yr91Pco/MNcjPXA9yr91Pco/HNejPXI9yr/AmRk+MNcjPXI9yr/AmRk+AACAP+MmrDPcm2IyAACAv0tHtrMAAACAAACAP+MmrDPcm2IyAACAv0tHtrMAAACAAACAP+MmrDPcm2IyAACAv0tHtrMAAACAAACAP+MmrDPcm2IyAACAv0tHtrMAAACAAACAP+MmrDPB0TmyAACAv0tHtrMAAACAAACAP+MmrDPB0TmyAACAv0tHtrMAAACAAACAP+MmrDPB0TmyAACAv0tHtrMAAACAAACAP+MmrDPB0TmyAACAv0tHtrMAAACAVVWVPgAAAD9WVVU+AAAAP1VVlT4AAMA+VlVVPgAAwD5VVZU+AAAAP1ZVVT4AAAA/VVWVPgAAAD9WVVU+AAAAP1VVlT4AAAA/VlVVPgAAAD9VVZU+AADAPlZVVT4AAMA+VVWVPgAAAD9WVVU+AAAAP1VVlT4AAAA/VlVVPgAAAD8CAAYABAACAAQAAAAHAAMAAQAHAAEABQAKAAgADAAKAAwADgAPAA0ACQAPAAkACwA="
+            "byteLength" : 688,
+            "uri" : "data:application/octet-stream;base64,XoI7P12P4j8XrhdAht5KP12P4j8XrhdAUoI7P12P4j+LZmY+et5KP12P4j+KZmY+WII7PxSuF8AWrhdAgN5KPxSuF8AWrhdASoI7PxauF8CLZmY+dN5KPxauF8CKZmY+QII7P12P4j+G6xHAaN5KP12P4j+G6xHAToI7P12P4j99PQq+eN5KP12P4j9+PQq+OoI7PxSuF8CG6xHAYt5KPxSuF8CG6xHARoI7PxauF8B9PQq+cN5KPxauF8B+PQq+AACAv9Js2DONYbs0AACAP9mBubONYbu0AACAv9Js2DONYbs0AACAP9mBubONYbu0AACAv9Js2DONYbs0AACAP9mBubONYbu0AACAv9Js2DONYbs0AACAP9mBubONYbu0AACAv9Ns2DMBGMM0AACAP9Vs2LN7Ndi0AACAv9Ns2DMBGMM0AACAP9Vs2LN7Ndi0AACAv9Ns2DMBGMM0AACAP9Vs2LN7Ndi0AACAv9Ns2DMBGMM0AACAP9Vs2LN7Ndi0VVWVPgAAAD9WVVU+AAAAP1VVlT4AAMA+VlVVPgAAwD5VVZU+AAAAP1ZVVT4AAAA/VVWVPgAAAD9WVVU+AAAAP1VVlT4AAAA/VlVVPgAAAD9VVZU+AADAPlZVVT4AAMA+VVWVPgAAAD9WVVU+AAAAP1VVlT4AAAA/VlVVPgAAAD8AAAAAAACAPwAAAAAAAIA/AAAAAAAAgD8AAAAAAACAPwAAAAAAAIA/AAAAAAAAgD8AAAAAAACAPwAAAAAAAIA/AAAAAAAAgD8AAAAAAACAPwAAAAAAAIA/AAAAAAAAgD8AAAAAAACAPwAAAAAAAIA/AAAAAAAAgD8AAAAAAACAPwIABgAEAAIABAAAAAcAAwABAAcAAQAFAAoACAAMAAoADAAOAA8ADQAJAA8ACQALAA=="
         }
     ]
 }
