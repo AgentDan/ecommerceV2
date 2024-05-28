@@ -272,6 +272,19 @@ export const store = [
                 ],
                 components: [
                 ]
+            },
+            {
+                id: v1(),
+                check: false,
+                nameProject: "hammock3",
+                def: [
+                    {file: "hammock3Defoult1"},
+                    {file: "hammock3Defoult2"},
+                    {file: "hammock3Defoult3"},
+                    {file: "hammock3Defoult4"},
+                ],
+                components: [
+                ]
             }
         ]
     },
