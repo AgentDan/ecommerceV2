@@ -274,5 +274,24 @@ export const store = [
                 ]
             }
         ]
-    }
+    },
+    {
+        id: v1(),
+        name: "kinki",
+        projects: [
+            {
+                id: v1(),
+                check: false,
+                nameProject: "window",
+                def: [
+                    {file: "kinkiWindowDefoult1"},
+                    {file: "kinkiWindowDefoult2"},
+                    {file: "kinkiWindowDefoult3"},
+                    {file: "kinkiWindowDefoult4"},
+                ],
+                components: [
+                ]
+            }
+        ]
+    },
 ]
