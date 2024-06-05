@@ -307,4 +307,21 @@ export const store = [
             }
         ]
     },
+    {
+        id: v1(),
+        name: "flowers",
+        projects: [
+            {
+                id: v1(),
+                check: false,
+                nameProject: "rackFlowers",
+                def: [
+                    {file: "rackFlowersDefoult1"},
+                    {file: "rackFlowersDefoult2"},
+                ],
+                components: [
+                ]
+            }
+        ]
+    },
 ]
