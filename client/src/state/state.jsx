@@ -332,6 +332,18 @@ export const store = [
                 ],
                 components: [
                 ]
+            },
+            {
+                id: v1(),
+                check: false,
+                nameProject: "rackFlowers3",
+                def: [
+                    {file: "rackFlowersDefoult5"},
+                    {file: "rackFlowersDefoult6"},
+                    {file: "rackFlowersDefoult7"},
+                ],
+                components: [
+                ]
             }
         ]
     },
