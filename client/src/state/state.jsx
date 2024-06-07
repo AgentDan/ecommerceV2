@@ -341,6 +341,7 @@ export const store = [
                     {file: "rackFlowersDefoult5"},
                     {file: "rackFlowersDefoult6"},
                     {file: "rackFlowersDefoult7"},
+                    {file: "rackFlowersDefoult8"},
                 ],
                 components: [
                 ]
