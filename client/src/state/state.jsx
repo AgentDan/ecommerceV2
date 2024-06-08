@@ -309,6 +309,24 @@ export const store = [
     },
     {
         id: v1(),
+        name: "jovanova",
+        projects: [
+            {
+                id: v1(),
+                check: false,
+                nameProject: "appartment",
+                def: [
+                    {file: "javanovaDefoult1"},
+                    {file: "javanovaDefoult2"},
+                    {file: "javanovaDefoult3"},
+                ],
+                components: [
+                ]
+            }
+        ]
+    },
+    {
+        id: v1(),
         name: "flowers",
         projects: [
             {

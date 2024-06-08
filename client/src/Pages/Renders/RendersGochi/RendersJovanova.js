@@ -1,7 +1,5 @@
-import photo1 from './1.jpg'
-import photo2 from './2.jpg'
-import photo3 from './3.jpg'
-import photo4 from './4.jpg'
+import photo1 from './0.jpg'
+import photo2 from './2.png'
 import {Link} from "react-router-dom";
 
 const Renders = () => {
@@ -14,8 +12,6 @@ const Renders = () => {
             </Link>
             <img src={photo1} alt="ppp"/>
             <img src={photo2} alt="ppp"/>
-            <img src={photo3} alt="ppp"/>
-            <img src={photo4} alt="ppp"/>
         </>
     );
 };
