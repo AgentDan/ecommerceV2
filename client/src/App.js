@@ -10,7 +10,7 @@ import Projects from "./Pages/Ptojects/Projects"
 import Layout from "./Pages/Layout/Layout"
 import RendersKinki from "./Pages/Renders/RendersKinki/Renders"
 import RendersKonst from "./Pages/Renders/RendersKonst/RendersKonst";
-import RendersJovanova from "./Pages/Renders/RendersGochi/RendersJovanova";
+import RendersJovanova from "./Pages/Renders/RendersJavanova/RendersJovanova";
 
 function App() {
     const {login, logout, token, userId, isReady, logoName, arrNew, setArrNew, allProjects, setAllProjects, allElem, setAllElem, idProject, setIdProject} = useAuth()
