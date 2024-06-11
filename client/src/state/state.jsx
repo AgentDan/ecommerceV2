@@ -145,6 +145,11 @@ export const store = [
                     {file: "javanovaDefoult1"},
                     {file: "javanovaDefoult2"},
                     {file: "javanovaDefoult3"},
+                    {file: "javanovaDefoult4"},
+                    {file: "javanovaDefoult5"},
+                    {file: "javanovaDefoult6"},
+                    {file: "javanovaDefoult7"},
+                    {file: "javanovaDefoult8"},
                 ],
                 components: [
                 ]

@@ -118,13 +118,13 @@
             "name" : "javanovaDefoult1",
             "pbrMetallicRoughness" : {
                 "baseColorFactor" : [
-                    0.42922350764274597,
-                    0.42922350764274597,
-                    0.42922350764274597,
+                    0.3860807716846466,
+                    0.41093894839286804,
+                    0.34083297848701477,
                     1
                 ],
                 "metallicFactor" : 0,
-                "roughnessFactor" : 0.7755905389785767
+                "roughnessFactor" : 0.5
             }
         }
     ],
