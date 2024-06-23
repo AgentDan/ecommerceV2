@@ -158,6 +158,29 @@ export const store = [
     },
     {
         id: v1(),
+        name: "desk",
+        projects: [
+            {
+                id: v1(),
+                check: false,
+                nameProject: "desk",
+                def: [
+                    {file: "deskDefoult1"},
+                    {file: "deskDefoult2"},
+                    {file: "deskDefoult3"},
+                    {file: "deskDefoult4"},
+                ],
+                components: [
+                    {id: v1(), groupElements: 0, name: "deskAlisaTrue", file: "deskAlisa1", check: true},
+                    {id: v1(), groupElements: 0, name: "deskAlisaFalse", file: "deskAlisa2", check: false},
+                    {id: v1(), groupElements: 1, name: "deskRackTrue", file: "deskRack1", check: true},
+                    {id: v1(), groupElements: 1, name: "deskRackFalse", file: "deskRack2", check: false},
+                ]
+            }
+        ]
+    },
+    {
+        id: v1(),
         name: "flowers",
         projects: [
             {
